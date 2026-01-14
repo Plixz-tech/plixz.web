@@ -333,6 +333,10 @@ a:focus {
   text-decoration: none;
 }
 
+#heroimg img {
+  border-radius: 5px;
+}
+
 body.body {
   font-size: 16px;
   font-weight: 400;
@@ -16062,10 +16066,10 @@ a.header__search.header-search-btn p {
   margin-right: 16px;
   transition: all 0.4s;
 }
-.work .single-items:hover .icon {
+/* .work .single-items:hover .icon {
   background-color: var(--ztc-bg-main-bg-1);
   transition: all 0.4s;
-}
+} */
 .work .heading1 {
   padding-right: 60px;
 }
