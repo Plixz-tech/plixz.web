@@ -1,3 +1,4 @@
+
 (function ($) {
   $(document).ready(function () {
 
@@ -560,12 +561,7 @@
     });
 
 
-    //Video poppup
-    if ($(".play-btn").length > 0) {
-      $(".play-btn").magnificPopup({
-        type: "iframe",
-      });
-    }
+   
     
         // page-progress
         var progressPath = document.querySelector(".progress-wrap path");
