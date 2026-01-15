@@ -20,7 +20,7 @@
   //mobile-menus
   $('.mobile-nav a').each(function(){
     var href = $(this).attr('href');
-    if(href = '#'){
+    if(href === '#'){
       $(this).addClass('hash-nav')
     }else {
       $(this).removeClass('hash-nav')

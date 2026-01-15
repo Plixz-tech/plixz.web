@@ -14,7 +14,7 @@ Desc:
 
 /*Base css*/
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:991px) {
     *{
         margin: 0;
         padding: 0;
@@ -43,6 +43,28 @@ Desc:
         color: #000;
         text-decoration: none;
     }
+    
+    .mobile-logo img {
+        max-width: 120px;
+        height: auto;
+        transition: all 0.3s ease;
+    }
+    
+    /* Extra small devices (phones in portrait) */
+    @media (max-width: 480px) {
+        .mobile-logo img {
+            max-width: 100px;
+            height: auto;
+        }
+    }
+    
+    /* Small devices (landscape phones) */
+    @media (max-width: 576px) {
+        .mobile-logo img {
+            max-width: 110px;
+            height: auto;
+        }
+    }
 
 
     .mobile-logo-unick {
@@ -55,9 +77,10 @@ Desc:
         top: 0;
         left: 0;
         width: 100%;
-        padding: 17px 0;
+        padding: 15px 0;
         z-index: 999;
         background: #fff;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
     .mobile-header.mobile-header-main {
@@ -65,7 +88,7 @@ Desc:
         top: 0;
         left: 0;
         width: 100%;
-        padding: 17px 0;
+        padding: 15px 0;
         z-index: 999;
         background: #252442;
     }
@@ -74,18 +97,26 @@ Desc:
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 0 20px;
     }
     
     .mobile-nav-icon {
         font-size: 23px;
-        border: 1px solid;
-        width: 40px;
-        height: 40px;
+        border: 1px solid #008080;
+        width: 45px;
+        height: 45px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 4px;
-        color: #000;
+        color: #008080;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .mobile-nav-icon:hover {
+        background: #008080;
+        color: #fff;
     }
     
     .mobile-header.mobile-header-main {

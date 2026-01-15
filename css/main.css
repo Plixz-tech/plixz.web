@@ -400,7 +400,67 @@ body.body {
   .pr60 {
     padding-right: 0;
   }
+  /* Mobile Header Adjustments */
+  .hero1 {
+    padding-top: 80px !important;
+  }
+  
+  .mobile-header {
+    display: block !important;
+  }
+  
+  .header-area {
+    display: none !important;
+  }
+  
+  /* Mobile Hero Adjustments */
+  .hero1 .main-headding {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero1 .title {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  
+  .hero1 .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .hero1-all-images {
+    margin-top: 30px;
+  }
+  
+  /* Mobile Service Boxes */
+  .hero-bottom-area .single-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Mobile Logo Size Control */
+  .mobile-logo img {
+    max-width: 120px !important;
+    height: auto !important;
+  }
+  
+  @media (max-width: 576px) {
+    .mobile-logo img {
+      max-width: 100px !important;
+      height: auto !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mobile-logo img {
+      max-width: 90px !important;
+      height: auto !important;
+    }
+  }
 }
+
 .space4 {
   height: 4px;
 }
@@ -543,7 +603,42 @@ body.body {
   .section-padding {
     padding: 60px 0;
   }
+  
+  /* Tablet and Mobile Header */
+  .mobile-header {
+    display: block !important;
+  }
+  
+  .header-area {
+    display: none !important;
+  }
+  
+  .hero1 {
+    padding-top: 80px !important;
+  }
+  
+  .hero1 .main-headding {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero1 .title {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+  
+  .hero1 .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .hero-bottom-area .single-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
+
 .section-padding2 {
   padding: 120px 0 90px;
 }
@@ -2956,6 +3051,8 @@ body.body {
 
 .video-buttton9 {
   /* video button  */
+  position: relative;
+  display: inline-block;
 }
 .video-buttton9 .video-play-button {
   position: relative;
