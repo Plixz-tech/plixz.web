@@ -2647,7 +2647,7 @@ body.body {
   text-align: center;
   line-height: 56px;
   font-size: 18px;
-  color: #03256c;
+  color: #008080;
   left: 0;
   top: 0;
   height: 56px;
@@ -2689,7 +2689,7 @@ body.body {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #03256c; /* --- Lijn progres kleur --- */
+  stroke: #008080; /* --- Lijn progres kleur --- */
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;
@@ -17449,7 +17449,7 @@ a.header__search.header-search-btn p {
   line-height: var(--f-fs-font-fs24);
   font-weight: var(--f-fw-semibold);
   color: var(--ztc-bg-color-w);
-  padding-top: 16px;
+  
   transition: all 0.4s;
 }
 .comon-body .sidebar-box-area .sidebar-blog-boxs .sidebar-blogs .heading h5 a:hover {
@@ -23316,7 +23316,7 @@ li.has-dropdown1 span {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
