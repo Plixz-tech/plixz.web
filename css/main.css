@@ -5422,7 +5422,7 @@ a.header__search.header-search-btn p {
   }
 }
 .about1 .heading1 .list li {
-  font-size: var(--f-fs-font-fs20);
+  font-size: var(--f-fs-font-fs18);
   line-height: var(--f-fs-font-fs20);
   font-weight: var(--f-fw-semibold);
   color: var(--ztc-text-text-1);
@@ -23418,3 +23418,39 @@ li.has-dropdown1 span {
     font-size: 2.3rem;
   }
 }
+
+
+
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100%;
+  background: #008080;
+  z-index: 9999;
+  transition: right 0.4s ease;
+  overflow-y: auto;
+}
+
+.mobile-sidebar.active {
+  right: 0;
+}
+
+/* optional overlay */
+.body-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 9998;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.body-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
